@@ -3,7 +3,7 @@ name := "JBullet"
 
 version := "2.72"
     
-organization := "com.github"
+organization := "com.bulletphysics"
 
 scalaVersion := "2.9.1"
 
