@@ -3,7 +3,7 @@ function installant() {
 # get the latest version number
 antarchive=$(wget -O - -q http://www.apache.org/dist/ant/binaries/ | grep 'tar.bz2<' | sed 's/^.*<a .*>\(.*\)<\/a>.*$/\1/')
 if [ -z "$antarchive" ]; then
-    antarchive="apache-ant-1.7.1-bin.tar.bz2"
+    antarchive="apache-ant-1.8.2-bin.tar.bz2"
 fi
 
 pushd /usr/local
