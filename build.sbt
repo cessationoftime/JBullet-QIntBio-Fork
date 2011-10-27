@@ -1,9 +1,9 @@
 /** Project */
 name := "JBullet"
 
-version := "0.0.1-SNAPSHOT"
+version := "2.72"
     
-organization := "com.seventheye"
+organization := "com.github"
 
 scalaVersion := "2.9.1"
 
